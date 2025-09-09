@@ -1,0 +1,14 @@
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\bin\Debug\net8.0\SchoolSystem.exe
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\bin\Debug\net8.0\SchoolSystem.deps.json
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\bin\Debug\net8.0\SchoolSystem.runtimeconfig.json
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\bin\Debug\net8.0\SchoolSystem.dll
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\bin\Debug\net8.0\SchoolSystem.pdb
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.AssemblyInfoInputs.cache
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.AssemblyInfo.cs
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.csproj.CoreCompileInputs.cache
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.dll
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\refint\SchoolSystem.dll
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.pdb
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.genruntimeconfig.cache
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\ref\SchoolSystem.dll
