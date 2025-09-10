@@ -13,9 +13,9 @@ namespace SchoolSystem.Services
     }
     internal class SignUpS
     {
-
         public class SignUpT : ISignUp
         {
+        public List<Teacher> teachers;
         
             
             public void SignUp()
@@ -24,7 +24,7 @@ namespace SchoolSystem.Services
                 string Tname = Console.ReadLine();
                 Console.WriteLine("Enter Teacher Email : ");
                 string Temail = Console.ReadLine();
-                var CheckEmail = SchoolData.Teachers.FirstOrDefault(x => x.Email == Temail);
+                var CheckEmail = teachers.FirstOrDefault(x => x.Email == Temail);
                 if (CheckEmail != null)
                 { 
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -50,14 +50,14 @@ namespace SchoolSystem.Services
         }
         public class SignUpStd : ISignUp
         {
-
+            public List <Student> students;
             public void SignUp()
             {
                 Console.WriteLine("Enter Student Name : ");
                 string Sname = Console.ReadLine();
                 Console.WriteLine("Enter Student Email : ");
                 string Semail = Console.ReadLine();
-                var CheckFromEmail = SchoolData.Students.FirstOrDefault(x => x.Email == Semail);
+                var CheckFromEmail = students.FirstOrDefault(x => x.Email == Semail);
                 if (CheckFromEmail != null)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -82,13 +82,14 @@ namespace SchoolSystem.Services
         }
         public class SignUpP : ISignUp
         {
+            public List <Parent> parents;
             public void SignUp()
             {
                 Console.WriteLine("Enter Parent Name : ");
                 string Pname = Console.ReadLine();
                 Console.WriteLine("Enter Parent Email : ");
                 string Pemail = Console.ReadLine();
-                var CheckFromEmail = SchoolData.Parents.FirstOrDefault(x => x.Email == Pemail);
+                var CheckFromEmail = parents.FirstOrDefault(x => x.Email == Pemail);
                 if (CheckFromEmail != null)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
