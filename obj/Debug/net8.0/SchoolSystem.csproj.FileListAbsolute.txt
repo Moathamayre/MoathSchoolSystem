@@ -12,3 +12,4 @@ C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\refint\Sc
 C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.pdb
 C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.genruntimeconfig.cache
 C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\ref\SchoolSystem.dll
+C:\Users\moath\source\repos\SchoolSystem\SchoolSystem\obj\Debug\net8.0\SchoolSystem.sourcelink.json

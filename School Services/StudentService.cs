@@ -44,6 +44,8 @@ namespace SchoolSystem.School_Services
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"The Student With Id {SID} Has Been Removed");
                 _students.Remove(removestd);
+                Console.ResetColor();
+
             }
 
             else Console.WriteLine("Wrong ID ! ");
@@ -52,11 +54,15 @@ namespace SchoolSystem.School_Services
         {
             Console.WriteLine("Enter The Name Of Student You Want To Search At :");
             string stdName = Console.ReadLine();
-            var SearchStd = _students.Where(x => x.Name==stdName).ToList();
+            var SearchStd = _students.Where(x=>x.Name.ToLower().Contains(stdName.ToLower())).ToList();
             foreach (var studentstd in SearchStd)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
+               
                 Console.WriteLine($"The Student With ID : {studentstd.Id} | With Name :{studentstd.Name} | With Email :{studentstd.Email} ");
+                Console.ResetColor();
+
+
             }
         }
         public void ShowAllStudent(Student student)
